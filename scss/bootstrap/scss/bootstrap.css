@@ -551,15 +551,15 @@ pre code {
   margin-left: auto;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 576px) {
   .container, .container-sm {
-    max-width: 540px;
+    max-width: 480px;
   }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 768px) {
   .container, .container-sm, .container-md {
-    max-width: 720px;
+    max-width: 680px;
   }
 }
 
