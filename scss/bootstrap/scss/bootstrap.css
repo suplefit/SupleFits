@@ -551,13 +551,13 @@ pre code {
   margin-left: auto;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 500px) {
   .container, .container-sm {
     max-width: 540px;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 700px) {
   .container, .container-sm, .container-md {
     max-width: 720px;
   }
