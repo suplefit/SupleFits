@@ -606,15 +606,15 @@ pre code {
   margin-left: auto;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 300px) {
   .container, .container-sm {
-    max-width: 540px;
+    max-width: 300px;
   }
 }
 
 @media (min-width: 768px) {
   .container, .container-sm, .container-md {
-    max-width: 720px;
+    max-width: 768px;
   }
 }
 
@@ -866,7 +866,7 @@ pre code {
   margin-left: 91.66667%;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 300px) {
   .col-sm {
     flex-basis: 0;
     flex-grow: 1;
@@ -4084,7 +4084,7 @@ input[type="button"].btn-block {
   background-size: 100% 100%;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 300px) {
   .navbar-expand-sm > .container,
   .navbar-expand-sm > .container-fluid, .navbar-expand-sm > .container-sm, .navbar-expand-sm > .container-md, .navbar-expand-sm > .container-lg, .navbar-expand-sm > .container-xl {
     padding-right: 0;
@@ -4092,7 +4092,7 @@ input[type="button"].btn-block {
   }
 }
 
-@media (min-width: 576px) {
+@media (max-width: 300px) {
   .navbar-expand-sm {
     flex-flow: row nowrap;
     justify-content: flex-start;
